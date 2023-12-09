@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto max-w-[1140px] px-4 xl:px-0;
+    }
+
+    .btn_white { 
+        @apply  bg-white text-brown-50 px-[34px] py-4 font-bold text-sm hover:text-white hover:bg-brown-50 transition duration-200;
+    }
+
+    .btn_black { 
+        @apply  bg-black text-white px-[34px] py-4 font-bold text-sm hover:text-black hover:bg-white transition duration-200;
+    }
+}
