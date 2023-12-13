@@ -8,7 +8,7 @@ import Button from './Button'
 function Header() {
   return (
     <nav
-      className='container flex items-center justify-between py-[40px]'
+      className='container flex items-center justify-between py-[30px]'
     >
       <Image 
         src='/logo.png'

@@ -5,26 +5,24 @@
     { href: '/', key: 'blog', label: 'Blog' },
 ];
 
-export const HERO = [
-    {
-        image: '/hero-image.png',
-        title: 'Creative Real Estate Agency',
-        description: 'Spanty is an international estate company that offers services like propery appraisal as well as the sale, purchase, and investment of real estate.',
-        location: 'California, US',
-        price: '$1500-2500',
-        type: 'Apartment',
-        services: [
-            {
-                description: 'The price we offer accordance with the quality we provide',
-                image: '/coins-icon.png',
-            },
-            {
-                description: 'Official legality in the relevant government',
-                image: '/gift-icon.png'
-            }
-        ]
-    }
-];
+export const HERO = {
+    image: '/hero-image.png',
+    title: 'Creative Real Estate Agency',
+    description: 'Spanty is an international estate company that offers services like propery appraisal as well as the sale, purchase, and investment of real estate.',
+    location: 'California, US',
+    price: '$1500-2500',
+    type_property: 'Apartment',
+    services: [
+        {
+            description: 'The price we offer accordance with the quality we provide',
+            image: '/coins-icon.png',
+        },
+        {
+            description: 'Official legality in the relevant government',
+            image: '/gift-icon.png'
+        }
+    ]
+};
 
 export const BRANDS = [
     '/homey-logo.png',

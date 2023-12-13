@@ -1,6 +1,3 @@
-import { title } from 'process'
-import React from 'react'
-
 type ButtonProps = {
     title: string;
     variant: string;
@@ -9,7 +6,7 @@ type ButtonProps = {
 function Button({ title, variant }: ButtonProps) {
   return (
     <button
-        className={`${variant}`}
+        className={`${variant} w-full`}
     >
       {title}
     </button>

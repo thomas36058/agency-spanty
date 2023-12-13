@@ -19,11 +19,15 @@ body {
         @apply mx-auto max-w-[1140px] px-4 xl:px-0;
     }
 
+    .text-sm {
+        @apply leading-[26px]
+    }
+
     .btn_white { 
         @apply  bg-white text-brown-50 px-[34px] py-4 font-bold text-sm hover:text-white hover:bg-brown-50 transition duration-200;
     }
 
     .btn_black { 
-        @apply  bg-black text-white px-[34px] py-4 font-bold text-sm hover:text-black hover:bg-white transition duration-200;
+        @apply  bg-black text-white px-[34px] py-4 font-bold text-sm border-2 hover:text-black hover:bg-white hover:border-black transition duration-200;
     }
 }

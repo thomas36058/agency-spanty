@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className='bg-brown-30'>
           <Header />
         </div>
-        <main>
+        <main className='overflow-x-hidden'>
           {children}
         </main>
         <Footer />
