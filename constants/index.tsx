@@ -32,24 +32,28 @@ export const BRANDS = [
     '/product-logo.png'
 ];
 
-export const NUMBERS = [
-    {
-        number: '9',
-        description: 'Years experience in real estate'
-    },
-    {
-        number: '$23K',
-        description: 'Total Net Profit Every Month'
-    },
-    {
-        number: '17',
-        description: 'Every month a new happy customer'
-    },
-    {
-        number: '$4K-7K',
-        description: 'Approximate Profit In 20 Business Days'
-    }
-];
+export const NUMBERS = {
+    title: 'We use Real Estate to show our appreciation of the world.',
+    description: 'We provide equity and debt capital globally to back projects that make an impact.',
+    informations: [
+        {
+            number: '9',
+            description: 'Years experience in real estate'
+        },
+        {
+            number: '$23K',
+            description: 'Total Net Profit Every Month'
+        },
+        {
+            number: '17',
+            description: 'Every month a new happy customer'
+        },
+        {
+            number: '$4K-7K',
+            description: 'Approximate Profit In 20 Business Days'
+        }
+    ]
+};
 
 export const FEATURED_LINKS = [
     {
