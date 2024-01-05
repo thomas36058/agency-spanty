@@ -9,7 +9,7 @@ function Hero() {
             <div className='lg:w-[50%] pt-10 pb-24'>
                 <h1 className='text-brown-90 font-bold text-7xl text-center lg:text-left'>{HERO.title}</h1>
                 <p className='my-8 text-white text-lg lg:max-w-[500px] text-center lg:text-left'>{HERO.description}</p>
-                <div className="flex justify-around lg:justify-between">
+                <div className="flex justify-around lg:justify-between flex-col lg:flex-row items-center gap-7 lg:items-start">
                     <div className="bg-white w-[215px] p-6">
                         <div className="flex">
                             <div className='p-2 bg-gray-60 flex items-center'>
