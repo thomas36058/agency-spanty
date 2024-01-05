@@ -6,7 +6,7 @@ function Numbers() {
   return (
     <section className='pt-16'>
         <div className="container flex gap-16 lg:gap-24 flex-col lg:flex-row">
-            <div className='flex gap-x-20 gap-y-12 lg:w-2/4 flex-wrap order-last justify-center lg:justify-start'>
+            <div className='flex gap-x-20 gap-y-12 lg:w-2/4 flex-wrap order-last lg:order-first justify-center lg:justify-start'>
                 {NUMBERS.informations.map((number) => (
                     <NumberItem
                         number={number.number}
