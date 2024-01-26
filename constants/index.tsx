@@ -75,7 +75,7 @@ export const FEATURED_LINKS = [
         area: '6x8 m²'
     },
     {
-        image: '/confortable-apartment.png',
+        image: '/comfortable-apartment.png',
         price: '4,299',
         title: 'Comfortable Apartment',
         address: '229 Elm Street, Unit 3, Cambridge, MA 02139',
@@ -84,7 +84,7 @@ export const FEATURED_LINKS = [
         area: '7x7 m²'
     },
     {
-        image: '/confortable-apartment-2.png',
+        image: '/comfortable-apartment-2.png',
         price: '4,299',
         title: 'Comfortable Apartment',
         address: '229 Elm Street, Unit 3, Cambridge, MA 02139',
