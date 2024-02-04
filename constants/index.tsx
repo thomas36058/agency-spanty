@@ -105,6 +105,7 @@ export const FEATURED_LINKS = [
 
 export const CUSTOMERS = [
     {
+        number_of_stars: 5,
         depoiment: 'Lorem ipsum dolor sit amet consectetur. Erat vehicula dignissim amet lacus eleifend mi nec amet. Ultrices senectus vitae laoreet neque. Elementum elit in.',
         name: 'Lailastly',
         description: 'Real Estate',

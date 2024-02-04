@@ -25,7 +25,8 @@ const config: Config = {
           50: '#D0D0D0',
           60: '#ECECEC',
         },
-        green: '#13291B'
+        green: '#13291B',
+        yellow: '#FB9953'
       },
     },
   },

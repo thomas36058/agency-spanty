@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Inter';
+    font-family: 'Inter', system-ui, 'Segoe UI', sans-serif;
 }
 
 @layer utilities {
