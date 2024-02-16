@@ -113,17 +113,22 @@ export const CUSTOMERS = [
     }
 ]
 
-export const FOOTER_INFORMATIONS = [
-    {
-        address: '2118 Thornridge Cir. Syracuse, Connecticut 35624',
-        telephone: '(208) 555-0112'
-    }
-];
+export const FOOTER_INFORMATIONS = {
+    address: '2118 Thornridge Cir. Syracuse, Connecticut 35624',
+    telephone: '(208) 555-0112'
+};
 
-export const FOOTER_LINKS = [
-    'Home',
-    'About Us',
-    'Career',
-    'Blog',
-    'Contact Us',
+export const SOCIAL_MEDIAS = [
+    {
+        name: 'INSTAGRAM',
+        url: '#'
+    },
+    {
+        name: 'FACEBOOK',
+        url: '#'
+    },
+    {
+        name: 'TWITTER',
+        url: '#'
+    }
 ];

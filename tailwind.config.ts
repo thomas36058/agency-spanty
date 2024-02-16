@@ -24,9 +24,10 @@ const config: Config = {
           40: '#686A79',
           50: '#D0D0D0',
           60: '#ECECEC',
+          70: '#F8F8F8',
         },
         green: '#13291B',
-        yellow: '#FB9953'
+        yellow: '#FB9953',
       },
     },
   },
