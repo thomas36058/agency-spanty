@@ -4,7 +4,7 @@ function Informations() {
   return (
     <div className="flex flex-col justify-around gap-12 py-14 lg:max-w-[340px]">
       <div className="text-white text-lg">
-        <h4 className="font-bold text-5xl lead-[60px] pb-6 text-brown-90">We'd love to hear from you</h4>
+        <h4 className="font-bold text-5xl lead-[60px] pb-6 text-brown-90">We had love to hear from you</h4>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
 
